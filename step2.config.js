@@ -11,7 +11,7 @@ module.exports = {
   output: {
     filename: "step2-bundle.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: '/',
+    publicPath: 'https://rbgksqkr.github.io/javascript-lotto/dist',
   },
   resolve: {
     extensions: [".js", ".mjs", ".css"],
@@ -40,7 +40,6 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./index.html",
-      publicPath: '/',
     }),
   ],
   devtool: "inline-source-map",
