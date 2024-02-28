@@ -11,6 +11,7 @@ module.exports = {
   output: {
     filename: "step2-bundle.js",
     path: path.resolve(__dirname, "dist"),
+    publicPath: '/',
   },
   resolve: {
     extensions: [".js", ".mjs", ".css"],
